@@ -283,7 +283,15 @@ uv run mypy src
 uv run pytest
 ```
 
-CI runs lint, types, unit tests, CodeQL, and dependency review. It never talks to a robot.
+`pre-commit` runs ruff, an em-dash check and `gitleaks` on every commit.
+Install it once:
+
+```bash
+uv run pre-commit install
+```
+
+CI runs lint, types, unit tests, CodeQL, dependency review, a secret scan and
+the em-dash check. It never talks to a robot.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contributions and
 [SECURITY.md](SECURITY.md) for private vulnerability reports and safe deployment.

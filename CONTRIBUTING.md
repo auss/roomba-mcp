@@ -15,6 +15,9 @@ uv run mypy src
 uv run pytest -q
 ```
 
+Run `uv run pre-commit install` once so the ruff, em-dash and `gitleaks`
+hooks run on every commit. Do not use em dashes; use a plain hyphen.
+
 Include tests for behavior changes. Tests must use sanitized fixtures and must
 not contact a real robot or iRobot account. Never commit credentials or personal
 data. Follow [tests/fixtures/README.md](tests/fixtures/README.md) for captures.
