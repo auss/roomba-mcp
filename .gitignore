@@ -15,3 +15,9 @@ htmlcov/
 login.json
 http-token
 config.toml
+
+# Local credential variants
+.env.*
+!.env.example
+*.pem
+*.key

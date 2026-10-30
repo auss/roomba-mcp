@@ -283,7 +283,10 @@ uv run mypy src
 uv run pytest
 ```
 
-CI runs lint, types and unit tests only. It never talks to a robot.
+CI runs lint, types, unit tests, CodeQL, and dependency review. It never talks to a robot.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contributions and
+[SECURITY.md](SECURITY.md) for private vulnerability reports and safe deployment.
 
 Tests use sanitized captures from the real robot. See
 `tests/fixtures/README.md`.
