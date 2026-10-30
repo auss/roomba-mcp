@@ -1,0 +1,20 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff check
+        entry: uv run ruff check src tests
+        language: system
+        pass_filenames: false
+        types: [python]
+      - id: no-em-dash
+        name: no em dash
+        entry: scripts/check-no-em-dash.sh
+        language: system
+        pass_filenames: false
+        types_or: [python, markdown, toml, yaml, json]
+      - id: gitleaks
+        name: gitleaks protect
+        entry: gitleaks protect --staged --verbose
+        language: system
+        pass_filenames: false

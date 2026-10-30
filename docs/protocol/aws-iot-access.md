@@ -58,13 +58,13 @@ c.tls_set_context(ssl.create_default_context())
 ## 3. Topic permissions (the tricky part)
 
 The deployment topic prefix from discovery (`irbtTopics`, currently
-**`v011-irbthbu`**) is **required** on app/robot topics:
+**`v005-irbthbu`**) is **required** on app/robot topics:
 
 | topic | result |
 |---|---|
-| `v011-irbthbu/things/<blid>/cmd` | ✅ SUBACK - this is the cloud command topic |
-| `v011-irbthbu/things/<blid>/shadow/#` | ✅ |
-| `v011-irbthbu/things/<blid>/rejected/report` | ✅ |
+| `v005-irbthbu/things/<blid>/cmd` | ✅ SUBACK - this is the cloud command topic |
+| `v005-irbthbu/things/<blid>/shadow/#` | ✅ |
+| `v005-irbthbu/things/<blid>/rejected/report` | ✅ |
 | `$aws/things/<blid>/shadow/#` | ✅ (AWS shadow service namespace) |
 | `/things/<blid>/…` (unprefixed) | ❌ connection dropped |
 | `#` | ❌ connection dropped |
