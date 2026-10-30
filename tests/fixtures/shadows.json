@@ -1,0 +1,992 @@
+{
+  "ro-currentstate": {
+    "state": {
+      "desired": {
+        "tz": {
+          "events": [
+            {
+              "dt": 1790856000,
+              "off": 120
+            },
+            {
+              "dt": 1792890001,
+              "off": 60
+            },
+            {
+              "dt": 1806195601,
+              "off": 120
+            }
+          ],
+          "ver": 32
+        }
+      },
+      "reported": {
+        "cleanMissionStatus": {
+          "cycle": "none",
+          "phase": "charge",
+          "expireM": 0,
+          "rechrgM": 0,
+          "error": 0,
+          "notReady": 0,
+          "condNotReady": [],
+          "mssnM": 0,
+          "expireTm": 0,
+          "rechrgTm": 0,
+          "mssnStrtTm": 1793268243,
+          "operatingMode": 0,
+          "initiator": "localApp",
+          "nMssn": 481,
+          "missionId": "01M63HVPHRVA7P2VQ33KTMRVG8"
+        },
+        "svcEndpoints": {
+          "svcDeplId": "v005"
+        },
+        "batPct": 100,
+        "bin": {
+          "present": true,
+          "full": false,
+          "type": "std"
+        },
+        "detectedPad": "reusableWet",
+        "dock": {
+          "known": true,
+          "cap": {
+            "pw": 0,
+            "pd": 0,
+            "evac": 1,
+            "fr": 1
+          },
+          "frState": 401,
+          "tankLvl": 44,
+          "error": 0,
+          "pn": "unknown",
+          "state": 301,
+          "id": "576a734816ce9ae76dc219a5247df076",
+          "fwVer": "4.8.35",
+          "hwRev": 5,
+          "varID": 10,
+          "fwVerSec": "4.8.35"
+        },
+        "lastDisconnect": 10002,
+        "pmaps": [
+          {
+            "map-AAAA1111": "20260101T000001"
+          }
+        ],
+        "pmapShare": {
+          "copy": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            9
+          ]
+        },
+        "tankLvl": 90,
+        "tankPresent": true,
+        "regDate": "2025-07-09",
+        "tz": {
+          "events": [
+            {
+              "dt": 1790856000,
+              "off": 120
+            },
+            {
+              "dt": 1792890001,
+              "off": 60
+            },
+            {
+              "dt": 1806195601,
+              "off": 120
+            }
+          ],
+          "ver": 32
+        },
+        "runtimeStats": {
+          "sqft": 383,
+          "min": 7,
+          "hr": 251
+        }
+      }
+    },
+    "metadata": {
+      "desired": {
+        "tz": {
+          "events": [
+            {
+              "dt": {
+                "timestamp": 1793317415
+              },
+              "off": {
+                "timestamp": 1793317415
+              }
+            },
+            {
+              "dt": {
+                "timestamp": 1793317415
+              },
+              "off": {
+                "timestamp": 1793317415
+              }
+            },
+            {
+              "dt": {
+                "timestamp": 1793317415
+              },
+              "off": {
+                "timestamp": 1793317415
+              }
+            }
+          ],
+          "ver": {
+            "timestamp": 1793317415
+          }
+        }
+      },
+      "reported": {
+        "cleanMissionStatus": {
+          "cycle": {
+            "timestamp": 1793317413
+          },
+          "phase": {
+            "timestamp": 1793317413
+          },
+          "expireM": {
+            "timestamp": 1793317413
+          },
+          "rechrgM": {
+            "timestamp": 1793317413
+          },
+          "error": {
+            "timestamp": 1793317413
+          },
+          "notReady": {
+            "timestamp": 1793317413
+          },
+          "condNotReady": [],
+          "mssnM": {
+            "timestamp": 1793317413
+          },
+          "expireTm": {
+            "timestamp": 1793317413
+          },
+          "rechrgTm": {
+            "timestamp": 1793317413
+          },
+          "mssnStrtTm": {
+            "timestamp": 1793317413
+          },
+          "operatingMode": {
+            "timestamp": 1793317413
+          },
+          "initiator": {
+            "timestamp": 1793317413
+          },
+          "nMssn": {
+            "timestamp": 1793317413
+          },
+          "missionId": {
+            "timestamp": 1793317413
+          }
+        },
+        "svcEndpoints": {
+          "svcDeplId": {
+            "timestamp": 1793317413
+          }
+        },
+        "batPct": {
+          "timestamp": 1793317413
+        },
+        "bin": {
+          "present": {
+            "timestamp": 1793317413
+          },
+          "full": {
+            "timestamp": 1793317413
+          },
+          "type": {
+            "timestamp": 1793317413
+          }
+        },
+        "detectedPad": {
+          "timestamp": 1793317413
+        },
+        "dock": {
+          "known": {
+            "timestamp": 1793317413
+          },
+          "cap": {
+            "pw": {
+              "timestamp": 1793317413
+            },
+            "pd": {
+              "timestamp": 1793317413
+            },
+            "evac": {
+              "timestamp": 1793317413
+            },
+            "fr": {
+              "timestamp": 1793317413
+            }
+          },
+          "frState": {
+            "timestamp": 1793317413
+          },
+          "tankLvl": {
+            "timestamp": 1793317413
+          },
+          "error": {
+            "timestamp": 1793317413
+          },
+          "pn": {
+            "timestamp": 1793317413
+          },
+          "state": {
+            "timestamp": 1793317413
+          },
+          "id": {
+            "timestamp": 1793317413
+          },
+          "fwVer": {
+            "timestamp": 1793317413
+          },
+          "hwRev": {
+            "timestamp": 1793317413
+          },
+          "varID": {
+            "timestamp": 1793317413
+          },
+          "fwVerSec": {
+            "timestamp": 1793317413
+          }
+        },
+        "lastDisconnect": {
+          "timestamp": 1793317413
+        },
+        "pmaps": [
+          {
+            "map-AAAA1111": {
+              "timestamp": 1793317413
+            }
+          }
+        ],
+        "pmapShare": {
+          "copy": [
+            {
+              "timestamp": 1793317413
+            },
+            {
+              "timestamp": 1793317413
+            },
+            {
+              "timestamp": 1793317413
+            },
+            {
+              "timestamp": 1793317413
+            },
+            {
+              "timestamp": 1793317413
+            },
+            {
+              "timestamp": 1793317413
+            }
+          ]
+        },
+        "tankLvl": {
+          "timestamp": 1793317413
+        },
+        "tankPresent": {
+          "timestamp": 1793317413
+        },
+        "regDate": {
+          "timestamp": 1752077955
+        },
+        "tz": {
+          "events": [
+            {
+              "dt": {
+                "timestamp": 1793317413
+              },
+              "off": {
+                "timestamp": 1793317413
+              }
+            },
+            {
+              "dt": {
+                "timestamp": 1793317413
+              },
+              "off": {
+                "timestamp": 1793317413
+              }
+            },
+            {
+              "dt": {
+                "timestamp": 1793317413
+              },
+              "off": {
+                "timestamp": 1793317413
+              }
+            }
+          ],
+          "ver": {
+            "timestamp": 1793317413
+          }
+        },
+        "runtimeStats": {
+          "sqft": {
+            "timestamp": 1793317413
+          },
+          "min": {
+            "timestamp": 1793317413
+          },
+          "hr": {
+            "timestamp": 1793317413
+          }
+        }
+      }
+    },
+    "version": 41908,
+    "timestamp": 1793346421
+  },
+  "rw-schedule": {
+    "state": {
+      "reported": {
+        "cleanSchedule2": [
+          {
+            "enabled": false,
+            "type": 0,
+            "start": {
+              "day": [
+                2
+              ],
+              "hour": 13,
+              "min": 30
+            },
+            "cmdStr": "{'command': 'start', 'ordered': 1, 'pmap_id': 'map-AAAA1111', 'regions': [{'params': {'carpetBoost': false, 'noAutoPasses': true, 'operatingMode': 6, 'padWetness': {'disposable': 3, 'reusable': 3}, 'swScrub': 1, 'twoPass': true, 'vacHigh': true}, 'region_id': '3', 'type': 'rid'}, {'params': {'carpetBoost': true, 'noAutoPasses': true, 'operatingMode': 6, 'padWetness': {'disposable': 2, 'reusable': 2}, 'swScrub': 0, 'twoPass': false, 'vacHigh': false}, 'region_id': '4', 'type': 'rid'}, {'params': {'carpetBoost': true, 'noAutoPasses': true, 'operatingMode': 6, 'padWetness': {'disposable': 2, 'reusable': 2}, 'swScrub': 0, 'twoPass': false, 'vacHigh': false}, 'region_id': '2', 'type': 'rid'}, {'params': {'carpetBoost': true, 'noAutoPasses': true, 'operatingMode': 6, 'padWetness': {'disposable': 2, 'reusable': 2}, 'swScrub': 0, 'twoPass': false, 'vacHigh': false}, 'region_id': '6', 'type': 'rid'}], 'user_pmapv_id': '20260103T000003'}"
+          }
+        ],
+        "nsmip": 2,
+        "svcEndpoints": {
+          "svcDeplId": "v005"
+        }
+      }
+    },
+    "metadata": {
+      "reported": {
+        "cleanSchedule2": [
+          {
+            "enabled": {
+              "timestamp": 1793317415
+            },
+            "type": {
+              "timestamp": 1793317415
+            },
+            "start": {
+              "day": [
+                {
+                  "timestamp": 1793317415
+                }
+              ],
+              "hour": {
+                "timestamp": 1793317415
+              },
+              "min": {
+                "timestamp": 1793317415
+              }
+            },
+            "cmdStr": {
+              "timestamp": 1793317415
+            }
+          }
+        ],
+        "nsmip": {
+          "timestamp": 1752077890
+        },
+        "svcEndpoints": {
+          "svcDeplId": {
+            "timestamp": 1793317415
+          }
+        }
+      }
+    },
+    "version": 2951,
+    "timestamp": 1793346421
+  },
+  "classic": {
+    "state": {
+      "reported": {
+        "digiCap": {
+          "appVer": 0,
+          "smartClean": 1
+        },
+        "nsmip": 2,
+        "svcEndpoints": {
+          "svcDeplId": "v005"
+        },
+        "sku": "c975840",
+        "cap": {
+          "carpetBoost": 1,
+          "binFullDetect": 2,
+          "addOnHw": 0,
+          "pw": 0,
+          "oMode": 78,
+          "floorTypeDetect": 10,
+          "odoa": 7,
+          "dockComm": 1,
+          "maps": 3,
+          "pmaps": 9,
+          "mc": 2,
+          "sem2umf": 2,
+          "scrub": 1,
+          "tLine": 2,
+          "area": 1,
+          "eco": 1,
+          "multiPass": 2,
+          "pre": 1,
+          "team": 0,
+          "pose": 2,
+          "lang": 2,
+          "hm": 0,
+          "rNav": 1,
+          "5ghz": 1,
+          "prov": 3,
+          "sched": 2,
+          "svcConf": 1,
+          "ota": 2,
+          "log": 2,
+          "langOta": 0,
+          "ns": 1,
+          "bleLog": 1,
+          "expectingUserConf": 2,
+          "idl": 1
+        }
+      }
+    },
+    "metadata": {
+      "reported": {
+        "digiCap": {
+          "appVer": {
+            "timestamp": 1752077930
+          },
+          "smartClean": {
+            "timestamp": 1752077930
+          }
+        },
+        "nsmip": {
+          "timestamp": 1752077890
+        },
+        "svcEndpoints": {
+          "svcDeplId": {
+            "timestamp": 1793317385
+          }
+        },
+        "sku": {
+          "timestamp": 1793317385
+        },
+        "cap": {
+          "carpetBoost": {
+            "timestamp": 1793317385
+          },
+          "binFullDetect": {
+            "timestamp": 1793317385
+          },
+          "addOnHw": {
+            "timestamp": 1793317385
+          },
+          "pw": {
+            "timestamp": 1793317385
+          },
+          "oMode": {
+            "timestamp": 1793317385
+          },
+          "floorTypeDetect": {
+            "timestamp": 1793317385
+          },
+          "odoa": {
+            "timestamp": 1793317385
+          },
+          "dockComm": {
+            "timestamp": 1793317385
+          },
+          "maps": {
+            "timestamp": 1793317385
+          },
+          "pmaps": {
+            "timestamp": 1793317385
+          },
+          "mc": {
+            "timestamp": 1793317385
+          },
+          "sem2umf": {
+            "timestamp": 1793317385
+          },
+          "scrub": {
+            "timestamp": 1793317385
+          },
+          "tLine": {
+            "timestamp": 1793317385
+          },
+          "area": {
+            "timestamp": 1793317385
+          },
+          "eco": {
+            "timestamp": 1793317385
+          },
+          "multiPass": {
+            "timestamp": 1793317385
+          },
+          "pre": {
+            "timestamp": 1793317385
+          },
+          "team": {
+            "timestamp": 1793317385
+          },
+          "pose": {
+            "timestamp": 1793317385
+          },
+          "lang": {
+            "timestamp": 1793317385
+          },
+          "hm": {
+            "timestamp": 1793317385
+          },
+          "rNav": {
+            "timestamp": 1793317385
+          },
+          "5ghz": {
+            "timestamp": 1793317385
+          },
+          "prov": {
+            "timestamp": 1793317385
+          },
+          "sched": {
+            "timestamp": 1793317385
+          },
+          "svcConf": {
+            "timestamp": 1793317385
+          },
+          "ota": {
+            "timestamp": 1793317385
+          },
+          "log": {
+            "timestamp": 1793317385
+          },
+          "langOta": {
+            "timestamp": 1793317385
+          },
+          "ns": {
+            "timestamp": 1793317385
+          },
+          "bleLog": {
+            "timestamp": 1793317385
+          },
+          "expectingUserConf": {
+            "timestamp": 1793317385
+          },
+          "idl": {
+            "timestamp": 1793317385
+          }
+        }
+      }
+    },
+    "version": 1489,
+    "timestamp": 1793346421
+  },
+  "rw-settings": {
+    "state": {
+      "desired": {
+        "twoPass": false
+      },
+      "reported": {
+        "pmapLearningAllowed": true,
+        "nsmip": 2,
+        "svcEndpoints": {
+          "svcDeplId": "v005"
+        },
+        "audio": {
+          "volume": 100
+        },
+        "binPause": true,
+        "carpetBoost": true,
+        "childLock": false,
+        "cloudEnv": "prod",
+        "country": "PL",
+        "evacAllowed": true,
+        "ecoCharge": false,
+        "frAllowed": 1,
+        "flushSluice": 2,
+        "imgUpload": 1,
+        "langs2": {
+          "sVer": "1.0",
+          "dLangs": {
+            "ver": "0.37",
+            "langs": [
+              "ar-SA_1",
+              "ar-SA_2",
+              "cs-CZ_1",
+              "cs-CZ_2",
+              "da-DK_1",
+              "da-DK_2",
+              "de-DE_1",
+              "de-DE_2",
+              "en-GB_1",
+              "en-GB_2",
+              "en-US_1",
+              "en-US_2",
+              "es-ES_1",
+              "es-ES_2",
+              "es-XL_1",
+              "es-XL_2",
+              "fi-FI_1",
+              "fi-FI_2",
+              "fr-CA_1",
+              "fr-CA_2",
+              "fr-FR_1",
+              "fr-FR_2",
+              "he-IL_1",
+              "he-IL_2",
+              "it-IT_1",
+              "it-IT_2",
+              "ja-JP_1",
+              "ja-JP_2",
+              "ko-KR_1",
+              "ko-KR_2",
+              "nb-NO_1",
+              "nb-NO_2",
+              "nl-NL_1",
+              "nl-NL_2",
+              "pl-PL_1",
+              "pl-PL_2",
+              "pt-BR_1",
+              "pt-BR_2",
+              "pt-PT_1",
+              "pt-PT_2",
+              "ru-RU_1",
+              "ru-RU_2",
+              "sv-SE_1",
+              "sv-SE_2",
+              "tr-TR_1",
+              "tr-TR_2",
+              "zh-CN_1",
+              "zh-CN_2",
+              "zh-HK_1",
+              "zh-HK_2",
+              "zh-TW_1",
+              "zh-TW_2"
+            ]
+          },
+          "sLang": "pl-PL_1",
+          "aSlots": 0
+        },
+        "mapUploadAllowed": true,
+        "name": "Roomba Combo",
+        "noAutoPasses": false,
+        "odoaMode": 0,
+        "padDirtyPause": 0,
+        "padDryAllowed": 1,
+        "padWashAllowed": 1,
+        "padWetness": {
+          "reusable": 2
+        },
+        "peopleFilter": 1,
+        "pmapCL": true,
+        "precheck": {
+          "weather": 0,
+          "readiness": 1,
+          "readinessTm": 1800
+        },
+        "schedHold": false,
+        "timezone": "Europe/Warsaw",
+        "twoPass": false,
+        "vacHigh": false
+      }
+    },
+    "metadata": {
+      "desired": {
+        "twoPass": {
+          "timestamp": 1788717663
+        }
+      },
+      "reported": {
+        "pmapLearningAllowed": {
+          "timestamp": 1793317413
+        },
+        "nsmip": {
+          "timestamp": 1752077890
+        },
+        "svcEndpoints": {
+          "svcDeplId": {
+            "timestamp": 1793317413
+          }
+        },
+        "audio": {
+          "volume": {
+            "timestamp": 1793317413
+          }
+        },
+        "binPause": {
+          "timestamp": 1793317413
+        },
+        "carpetBoost": {
+          "timestamp": 1793317413
+        },
+        "childLock": {
+          "timestamp": 1793317413
+        },
+        "cloudEnv": {
+          "timestamp": 1793317413
+        },
+        "country": {
+          "timestamp": 1793317413
+        },
+        "evacAllowed": {
+          "timestamp": 1793317413
+        },
+        "ecoCharge": {
+          "timestamp": 1793317413
+        },
+        "frAllowed": {
+          "timestamp": 1793317413
+        },
+        "flushSluice": {
+          "timestamp": 1793317413
+        },
+        "imgUpload": {
+          "timestamp": 1793317413
+        },
+        "langs2": {
+          "sVer": {
+            "timestamp": 1793317413
+          },
+          "dLangs": {
+            "ver": {
+              "timestamp": 1793317413
+            },
+            "langs": [
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              },
+              {
+                "timestamp": 1793317413
+              }
+            ]
+          },
+          "sLang": {
+            "timestamp": 1793317413
+          },
+          "aSlots": {
+            "timestamp": 1793317413
+          }
+        },
+        "mapUploadAllowed": {
+          "timestamp": 1793317413
+        },
+        "name": {
+          "timestamp": 1793317413
+        },
+        "noAutoPasses": {
+          "timestamp": 1793317413
+        },
+        "odoaMode": {
+          "timestamp": 1793317413
+        },
+        "padDirtyPause": {
+          "timestamp": 1793317413
+        },
+        "padDryAllowed": {
+          "timestamp": 1793317413
+        },
+        "padWashAllowed": {
+          "timestamp": 1793317413
+        },
+        "padWetness": {
+          "reusable": {
+            "timestamp": 1793317413
+          }
+        },
+        "peopleFilter": {
+          "timestamp": 1793317413
+        },
+        "pmapCL": {
+          "timestamp": 1793317413
+        },
+        "precheck": {
+          "weather": {
+            "timestamp": 1793317413
+          },
+          "readiness": {
+            "timestamp": 1793317413
+          },
+          "readinessTm": {
+            "timestamp": 1793317413
+          }
+        },
+        "schedHold": {
+          "timestamp": 1793317413
+        },
+        "timezone": {
+          "timestamp": 1793317413
+        },
+        "twoPass": {
+          "timestamp": 1793317413
+        },
+        "vacHigh": {
+          "timestamp": 1793317413
+        }
+      }
+    },
+    "version": 3489,
+    "timestamp": 1793346421
+  }
+}

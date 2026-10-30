@@ -1,0 +1,3726 @@
+[
+  {
+    "pmap_id": "map-AAAA1111",
+    "create_time": 1752077963,
+    "robot_pmapv_id": "20260102T000002",
+    "user_pmapv_id": "20260103T000003",
+    "state": "active",
+    "merged_pmap_ids": [],
+    "active_pmapv_id": "20260101T000001",
+    "visible": true,
+    "shared": 0,
+    "last_pmapv_ts": 1793266163,
+    "copied_from": {
+      "backup_robot_id_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "pmapv_id": "20260103T000003",
+      "pmap_id": "map-BBBB2222",
+      "source": "backup"
+    },
+    "sku": "c975840",
+    "robot_id": "0123456789ABCDEF0123456789ABCDEF",
+    "robot_ids": [
+      "0123456789ABCDEF0123456789ABCDEF"
+    ],
+    "active_pmapv_details": {
+      "active_pmapv": {
+        "pmap_id": "map-AAAA1111",
+        "pmapv_id": "20260101T000001",
+        "create_time": 1789658196,
+        "proc_state": "OK_Processed",
+        "creator": "robot",
+        "nMssn": 479,
+        "mission_id": "01TESTMISSION1111111111111",
+        "learning_percentage": 100,
+        "last_user_pmapv_id": "20260103T000003",
+        "last_user_ts": 1736972267,
+        "shareability": 9,
+        "robot_cap": {
+          "maps": 3,
+          "pmaps": 9
+        },
+        "robot_id": "0123456789ABCDEF0123456789ABCDEF"
+      },
+      "map_header": {
+        "id": "map-AAAA1111",
+        "version": "20260101T000001",
+        "name": "Main floor",
+        "learning_percentage": 100,
+        "create_time": 1789658196,
+        "resolution": 0.1049,
+        "user_orientation_rad": 3.0985,
+        "robot_orientation_rad": 3.0985,
+        "area": 34.583,
+        "nmssn": 479,
+        "mission_id": "01TESTMISSION1111111111111"
+      },
+      "regions": [
+        {
+          "id": "2",
+          "name": "Hallway",
+          "region_type": "hallway",
+          "policies": {
+            "odoa_mode": 0,
+            "odoa_feats": {},
+            "disabled_operating_modes": 0,
+            "override_operating_modes": 0
+          },
+          "time_estimates": [
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4914,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2948,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1474,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1179,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1179,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1179,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 590,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 590,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 590,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "name": "Living room",
+          "region_type": "family_room",
+          "policies": {
+            "odoa_mode": 0,
+            "odoa_feats": {},
+            "disabled_operating_modes": 0,
+            "override_operating_modes": 0
+          },
+          "time_estimates": [
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 4331,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2599,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1299,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1040,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1040,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1040,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 520,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 520,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 520,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Bathroom",
+          "region_type": "bathroom",
+          "policies": {
+            "odoa_mode": 0,
+            "odoa_feats": {},
+            "disabled_operating_modes": 0,
+            "override_operating_modes": 0
+          },
+          "time_estimates": [
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 601,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2004,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1002,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 301,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 240,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 240,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 240,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 120,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 120,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 120,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Kitchen",
+          "region_type": "kitchen",
+          "policies": {
+            "odoa_mode": 0,
+            "odoa_feats": {},
+            "disabled_operating_modes": 0,
+            "override_operating_modes": 0
+          },
+          "time_estimates": [
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7185,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3592,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 862,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 862,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 862,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2155,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1078,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 431,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 431,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 431,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "Bedroom",
+          "region_type": "bedroom",
+          "policies": {
+            "odoa_mode": 0,
+            "odoa_feats": {},
+            "disabled_operating_modes": 0,
+            "override_operating_modes": 0
+          },
+          "time_estimates": [
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 7200,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 3797,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 1,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 3,
+                  "reusable": 3
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 2,
+                  "reusable": 2
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 2278,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 1139,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 6,
+                "padWetness": {
+                  "disposable": 1,
+                  "reusable": 1
+                },
+                "swScrub": 0,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 911,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 911,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 911,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": true,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 456,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": true,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 456,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": true
+              }
+            },
+            {
+              "unit": "seconds",
+              "estimate": 456,
+              "confidence": "GOOD_CONFIDENCE",
+              "params": {
+                "carpetBoost": false,
+                "noAutoPasses": true,
+                "operatingMode": 2,
+                "twoPass": false,
+                "vacHigh": false
+              }
+            }
+          ]
+        }
+      ],
+      "zones": [],
+      "keepoutzones": [
+        {
+          "id": "0",
+          "name": "",
+          "keepoutzone_type": "unspecified",
+          "recommend_id": ""
+        }
+      ],
+      "observed_zones": [
+        {
+          "id": "250342664",
+          "extent_type": "front_of_dishwasher",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "250342664"
+          ]
+        },
+        {
+          "id": "454294403",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "454294403"
+          ]
+        },
+        {
+          "id": "486004922",
+          "extent_type": "around_dining_table",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "486004922"
+          ]
+        },
+        {
+          "id": "522511324",
+          "extent_type": "around_litter_box",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "522511324"
+          ]
+        },
+        {
+          "id": "886940254",
+          "extent_type": "around_bed",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "886940254"
+          ]
+        },
+        {
+          "id": "1176753916",
+          "extent_type": "around_litter_box",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "1176753916"
+          ]
+        },
+        {
+          "id": "1544618025",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "1544618025"
+          ]
+        },
+        {
+          "id": "1611293032",
+          "extent_type": "around_toilet",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "1611293032"
+          ]
+        },
+        {
+          "id": "1612352965",
+          "extent_type": "around_christmas_tree",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "1612352965"
+          ]
+        },
+        {
+          "id": "2096459820",
+          "extent_type": "front_of_oven",
+          "quality": {
+            "confidence": 100
+          },
+          "related_objects": [
+            "2096459820"
+          ]
+        },
+        {
+          "id": "1716977454",
+          "extent_type": "around_litter_box",
+          "quality": {
+            "confidence": 75
+          },
+          "related_objects": [
+            "1716977454"
+          ]
+        },
+        {
+          "id": "985797517",
+          "extent_type": "around_litter_box",
+          "quality": {
+            "confidence": 50
+          },
+          "related_objects": [
+            "985797517"
+          ]
+        },
+        {
+          "id": "25073912",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 25
+          },
+          "related_objects": [
+            "25073912"
+          ]
+        },
+        {
+          "id": "42156705",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 25
+          },
+          "related_objects": [
+            "42156705"
+          ]
+        },
+        {
+          "id": "94563220",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 25
+          },
+          "related_objects": [
+            "94563220"
+          ]
+        },
+        {
+          "id": "395826894",
+          "extent_type": "around_litter_box",
+          "quality": {
+            "confidence": 25
+          },
+          "related_objects": [
+            "395826894"
+          ]
+        },
+        {
+          "id": "1124975712",
+          "extent_type": "around_pet_bowl",
+          "quality": {
+            "confidence": 25
+          },
+          "related_objects": [
+            "1124975712"
+          ]
+        }
+      ]
+    }
+  }
+]

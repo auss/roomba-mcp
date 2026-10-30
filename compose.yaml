@@ -1,0 +1,24 @@
+# Host network: the container shares the host's LAN interface, which keeps
+# local discovery and the robot's inbound MQTT path simple. Set ROOMBA_HOST
+# to the robot IP when mDNS does not resolve inside the container.
+services:
+  roomba-mcp:
+    build: .
+    image: roomba-mcp:0.1.0
+    network_mode: host
+    restart: unless-stopped
+    # Run as your host user so the 0600 login cache is readable. Override
+    # ROOMBA_UID/ROOMBA_GID when your ids are not 1000.
+    user: "${ROOMBA_UID:-1000}:${ROOMBA_GID:-1000}"
+    environment:
+      ROOMBA_CONFIG_DIR: /config
+      ROOMBA_HTTP_HOST: 0.0.0.0
+      ROOMBA_HTTP_PORT: ${ROOMBA_HTTP_PORT:-8785}
+      ROOMBA_HOST: ${ROOMBA_HOST:-}
+      ROOMBA_TRANSPORT: ${ROOMBA_TRANSPORT:-auto}
+      ROOMBA_ALLOW_WRITES: ${ROOMBA_ALLOW_WRITES:-0}
+      ROOMBA_ALLOW_RAW: ${ROOMBA_ALLOW_RAW:-0}
+      ROOMBA_EXPERIMENTAL: ${ROOMBA_EXPERIMENTAL:-0}
+      ROOMBA_LOG_LEVEL: ${ROOMBA_LOG_LEVEL:-info}
+    volumes:
+      - ${ROOMBA_CONFIG_DIR:-${HOME}/.config/roomba-mcp}:/config:ro
